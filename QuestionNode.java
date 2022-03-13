@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-//pathleri child diye değiştirdim
 
 public class QuestionNode {
 
