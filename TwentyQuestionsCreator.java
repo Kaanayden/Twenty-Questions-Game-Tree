@@ -143,7 +143,7 @@ public class TwentyQuestionsCreator {
 
 
             } else if( input.equalsIgnoreCase("save") ) {
-                writeToFile( current.textCreator(ancestorNode) );
+                writeToFile( ancestorNode.textCreator(ancestorNode) );
             } else if( input.equalsIgnoreCase("exit") ) {
                 System.out.println("Terminating the program...");
                 return;
@@ -215,7 +215,7 @@ public class TwentyQuestionsCreator {
             } else if( input.equalsIgnoreCase("change") ) {
 
                 System.out.println("Node attributes will be changed.");
-                System.out.println("Parent Question of the new node: " + current.outputContext);
+                if(current != ancestorNode) System.out.println("Parent Question of the new node: " + current.parent.outputContext);
                 System.out.print("Enter new input answer of the node: ");
                 inputScan.nextLine(); //to skip an enter line
                 String inputAnswer = inputScan.nextLine();
