@@ -44,4 +44,4 @@ questions.txt File Format: (It is not required to know that because it can be us
     //Coordinates(as numbers with spaces between them), Which answer as an input will send to this node(String), Is this an guess(boolean(true, false)), Context of the node (Question or guess) (String)
     //example: 0 2 1 bigger** false Is it sharp?
     //don't use return, coordinates and exit as an input becase return sends to previous node on the program.
-    
+   
