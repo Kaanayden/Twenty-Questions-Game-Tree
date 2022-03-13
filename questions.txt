@@ -1,0 +1,13 @@
+-1 Is it classified as Animal, Vegetable or Mineral?
+0 mineral** false Is it used to make jewelry?
+0 0 yes** false Is it heavy?
+0 0 0 yes** false Is it round?
+0 0 0 0 no** false Would you give it as a gift?
+0 0 0 1 yes** true Bowling Ball
+0 0 0 0 0 yes** true Bracelet
+0 0 0 0 1 no** true Gold
+1 animal** false Is it dangerous?
+1 0 yes** true Lion
+1 1 no** false Is it in home?
+1 1 0 yes** true Cat
+1 1 1 no** true Chicken
