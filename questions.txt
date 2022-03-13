@@ -1,0 +1,52 @@
+-1 Which area your department accepts students?
+0 say** false Is it an engineering department?
+0 0 yes** false Is it related to business generally?
+0 0 0 yes** true IE
+0 0 1 no** false Is it about programming generally?
+0 0 1 0 yes** true CS
+0 0 1 1 no** false Is your job related about factories than circuits generally?
+0 0 1 1 0 yes** true ME
+0 0 1 1 1 no** true EE
+0 1 no** false Is your department one of fundemantal sciences?
+0 1 0 yes** false Is it about understanding living things?
+0 1 0 0 yes** true MBG
+0 1 0 1 no** false Is it related to atoms?
+0 1 0 1 0 yes** false Is quantum mechanics related to your department?
+0 1 0 1 0 0 yes** true PHYS
+0 1 0 1 0 1 no** true CHEM
+0 1 0 1 1 no** true MATH
+0 1 1 no** false Where is your department faculty?
+0 1 1 0 east** true CTIS
+0 1 1 1 central** false Is it about public domain design generally?
+0 1 1 1 0 yes** true LAUD
+0 1 1 1 1 no** true ARCH
+1 ea** false Which faculty is your department in?
+1 0 applied sciences** true THM
+1 1 art** false Do you create visual effects generally in your department?
+1 1 0 yes** true GRA
+1 1 1 no** true IAED
+1 2 humanities** false Is your department about why that happened or what happened in the nature?
+1 2 0 why** true PHIL
+1 2 1 what** true ARCH
+1 3 neither** false Is it about money generally?
+1 3 0 yes** false Is it about money policies of state generally?
+1 3 0 0 yes** true ECON
+1 3 0 1 no** true MAN
+1 3 1 no** false Is it about justice?
+1 3 1 0 yes** true LAW
+1 3 1 1 no** false Is it about administration of the state?
+1 3 1 1 0 yes** false Is it about relationships with other countries mostly?
+1 3 1 1 0 0 yes** true IR
+1 3 1 1 0 1 no** true POLS
+1 3 1 1 1 no** true PSYC
+2 soz** true COMD
+3 language** false Do you learn French in your department?
+3 0 yes** true TRIN
+3 1 no** false Which history is your department most about, English or American?
+3 1 0 english** true ELIT
+3 1 1 american** true AMER
+4 ability** false Is it about acting?
+4 0 yes** true THR
+4 1 no** false Is it about sound?
+4 1 0 yes** true MSC
+4 1 1 no** true FA
